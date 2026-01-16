@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "axissmp",
+	"version": "${version}",
+	"name": "AxisSMP",
+	"description": "Axis SMP Official Mod",
+	"authors": [
+		"itsfirecat"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/firecat907/axis-smp-mod"
+	},
+	"license": "GPLv3",
+	"icon": "assets/axissmp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.itsfirecat.axissmp.AxisSMP"
+		],
+		"fabric-datagen": [
+			"net.itsfirecat.axissmp.AxisSMPDataGenerator"
+		],
+		"client": [
+			"net.itsfirecat.axissmp.AxisSMPClient"
+		]
+	},
+	"mixins": [
+		"axissmp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
