@@ -20,7 +20,7 @@ public class ModItems {
     public static void registerModItems() {
         AxisSMP.LOGGER.info("Registering Mod Items for " + AxisSMP.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(FREEZE_SHARD);
             entries.add(FREEZE_ARTIFACT);
             entries.add(FREEZE_ARC);
