@@ -1,3 +1,5 @@
 {
-  "item.axissmp.freeze_shard": "Freeze Shard"
+  "item.axissmp.freeze_shard": "Freeze Shard",
+  "item.axissmp.freeze_artifact": "Freeze Artifact",
+  "item.axissmp.freeze_arc": "Freeze Arc"
 }
