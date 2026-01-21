@@ -13,6 +13,14 @@ public class ModItems {
     public static final Item FREEZE_SHARD = registerItem("freeze_shard", new Item(new Item.Settings()));
     public static final Item FREEZE_ARTIFACT = registerItem("freeze_artifact", new Item(new Item.Settings()));
     public static final Item FREEZE_ARC = registerItem("freeze_arc", new Item(new Item.Settings()));
+    public static final Item INFINITY_ARTIFACT = registerItem("infinity_artifact", new Item(new Item.Settings()));
+    public static final Item INFINITY_ARC = registerItem("infinity_arc", new Item(new Item.Settings()));
+    public static final Item PULSE_ARTIFACT = registerItem("pulse_artifact", new Item(new Item.Settings()));
+    public static final Item PULSE_ARC = registerItem("pulse_arc", new Item(new Item.Settings()));
+    public static final Item DASH_SHARD = registerItem("dash_shard", new Item(new Item.Settings()));
+    public static final Item DASH_ARTIFACT = registerItem("dash_artifact", new Item(new Item.Settings()));
+    public static final Item DASH_ARC = registerItem("dash_arc", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AxisSMP.MOD_ID, name), item);
     }
@@ -24,6 +32,13 @@ public class ModItems {
             entries.add(FREEZE_SHARD);
             entries.add(FREEZE_ARTIFACT);
             entries.add(FREEZE_ARC);
+            entries.add(INFINITY_ARTIFACT);
+            entries.add(INFINITY_ARC);
+            entries.add(PULSE_ARTIFACT);
+            entries.add(PULSE_ARC);
+            entries.add(DASH_SHARD);
+            entries.add(DASH_ARTIFACT);
+            entries.add(DASH_ARC);
         });
     }
 }

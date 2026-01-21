@@ -2,6 +2,13 @@
   "item.axissmp.freeze_shard": "Freeze Shard",
   "item.axissmp.freeze_artifact": "Freeze Artifact",
   "item.axissmp.freeze_arc": "Freeze Arc",
+  "item.axissmp.infinity_artifact": "Infinity Artifact",
+  "item.axissmp.infinity_arc": "Infinity Arc",
+  "item.axissmp.pulse_artifact": "Pulse Artifact",
+  "item.axissmp.pulse_arc": "Pulse Arc",
+  "item.axissmp.dash_shard": "Dash Shard",
+  "item.axissmp.dash_artifact": "Dash Artifact",
+  "item.axissmp.dash_arc": "Dash Arc",
 
   "block.axissmp.recall_anchor": "Arc Recall Anchor"
 }

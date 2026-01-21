@@ -4,10 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.itsfirecat.axissmp.AxisSMP;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -15,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block RECALL_ANCHOR = registerBlock("recall_anchor",
-            new Block(AbstractBlock.Settings.create().strength(1200f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)));
+            new Block(AbstractBlock.Settings.create().strength(1200f).sounds(BlockSoundGroup.DEEPSLATE_BRICKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
