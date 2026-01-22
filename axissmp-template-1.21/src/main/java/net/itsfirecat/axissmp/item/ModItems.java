@@ -20,6 +20,9 @@ public class ModItems {
     public static final Item DASH_SHARD = registerItem("dash_shard", new Item(new Item.Settings()));
     public static final Item DASH_ARTIFACT = registerItem("dash_artifact", new Item(new Item.Settings()));
     public static final Item DASH_ARC = registerItem("dash_arc", new Item(new Item.Settings()));
+    public static final Item RESONANCE_SHARD = registerItem("resonance_arc", new Item(new Item.Settings()));
+    public static final Item RESONANCE_ARTIFACT = registerItem("resonance_artifact", new Item(new Item.Settings()));
+    public static final Item RESONANCE_ARC = registerItem("resonance_arc", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AxisSMP.MOD_ID, name), item);
@@ -39,6 +42,9 @@ public class ModItems {
             entries.add(DASH_SHARD);
             entries.add(DASH_ARTIFACT);
             entries.add(DASH_ARC);
+            entries.add(RESONANCE_SHARD);
+            entries.add(RESONANCE_ARTIFACT);
+            entries.add(RESONANCE_ARC);
         });
     }
 }

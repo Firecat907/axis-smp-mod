@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block RECALL_ANCHOR = registerBlock("recall_anchor",
-            new Block(AbstractBlock.Settings.create().strength(1200f).sounds(BlockSoundGroup.DEEPSLATE_BRICKS)));
+            new Block(AbstractBlock.Settings.create().strength(50f).sounds(BlockSoundGroup.DEEPSLATE_BRICKS)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
