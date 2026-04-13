@@ -34,17 +34,12 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(FREEZE_SHARD);
             entries.add(FREEZE_ARTIFACT);
-            entries.add(FREEZE_ARC);
             entries.add(INFINITY_ARTIFACT);
-            entries.add(INFINITY_ARC);
             entries.add(PULSE_ARTIFACT);
-            entries.add(PULSE_ARC);
             entries.add(DASH_SHARD);
             entries.add(DASH_ARTIFACT);
-            entries.add(DASH_ARC);
             entries.add(RESONANCE_SHARD);
             entries.add(RESONANCE_ARTIFACT);
-            entries.add(RESONANCE_ARC);
         });
     }
 }
