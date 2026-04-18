@@ -20,4 +20,4 @@ You absolutely can, but support and updates are not guaranteed.
 No. Vanilla progression stays intact. Arcs are optional and exploration-based.
 
 **What license does it use?**
-GPLv3.
+AGPLv3.
