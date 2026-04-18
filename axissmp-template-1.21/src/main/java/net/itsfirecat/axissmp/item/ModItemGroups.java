@@ -26,8 +26,10 @@ public class ModItemGroups {
                         entries.add(ModItems.PULSE_ARC);
                         entries.add(ModItems.INFINITY_ARTIFACT);
                         entries.add(ModItems.INFINITY_ARC);
+                        entries.add(ModItems.RESONANCE_SHARD);
+                        entries.add(ModItems.RESONANCE_ARTIFACT);
+                        entries.add(ModItems.RESONANCE_ARC);
                         entries.add(ModBlocks.RECALL_ANCHOR);
-
                     }).build());
 
     public static void registerItemGroups() {
